@@ -132,7 +132,7 @@ int main()
     char firstword[WORD];
     getword(firstword);
     char choice;
-    scanf("%c\n", &choice);
+    scanf(" %c\n", &choice);
 
     if (choice == 'a')
     {
